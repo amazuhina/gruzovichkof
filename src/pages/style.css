@@ -1,0 +1,35 @@
+.wrapper {
+    width: 70%;
+    margin: 100px auto;
+    font-family: "Roboto";
+}
+
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 50px;
+}
+
+
+.link {
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-right: 10px;
+    color: #000;
+    background-color: #ddd;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+.link:hover{
+    background-color: #ccc;
+}
+
+
+.card-item {
+    -webkit-box-shadow: 0px 0px 10px -3px #666;
+    box-shadow: 0px 0px 10px -3px #666;
+}
